@@ -1,5 +1,6 @@
 export * from "./common";
 export * from "./networks";
+export * from "./i18n";
 
 export const HACKATHON_DATE_LIST = ["All time", "Upcoming", "Ended"];
 export const HACKATHON_REGION_LIST = [
@@ -70,3 +71,4 @@ export const SOLIDITY_CHALLENGE_LIST = [
 ];
 
 export const NORMAL_HEADER_HEIGHT = "6.5rem";
+
