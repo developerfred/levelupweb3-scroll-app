@@ -9,12 +9,15 @@ import "./scripts/processSolidityMarkdown.js";
 import "./scripts/processContentMarkdown.js";
 import "./scripts/processHackathonMarkdown.js";
 
+import i18n from './next-i18next.config.js';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   images: {
     deviceSizes: [600, 900, 1200, 1536],
   },
+  i18n,
   // trailingSlash: true,
   // eslint-disable-next-line
   webpack: (
